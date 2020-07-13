@@ -67,7 +67,7 @@ bkcore.hexgl.HUD = function(opts)
 	this.lap = "";
 	this.lapSeparator = "/";
 
-	this.timeSeparators = ["","'", "''",""];
+	this.timeSeparators = ["",":", ":",""];
 
 	this.step = 0;
 	this.maxStep = 2;
