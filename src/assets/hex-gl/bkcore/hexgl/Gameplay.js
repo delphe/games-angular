@@ -167,6 +167,7 @@ bkcore.hexgl.Gameplay.prototype.end = function(result)
 	if(result == this.results.FINISH)
 	{
 		if(this.hud != null) this.hud.display("Finish");
+		localStorage['hexgl-score'] = this.score;
 		this.step = 100;
 	}
 	else if(result == this.results.DESTROYED)
